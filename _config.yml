@@ -10,23 +10,22 @@ logo: jekyll-<b>materialize</b>
 paginate: 5
 paginate_path: "/page:num/"
 owner:
-    email: codeharuka.yusa@gmail.com
+    email: asqus23@gmail.com
     facebook:
-        show: true
-        name: "Ichihara Rifa"
-        url: "https://fb.me/yuneharuka"
+        show: false
+        username: ""
     github:
-        show: true
-        username: "yuune"
+        show: false
+        username: ""
     twitter:
         show: false
         username: ""
     disqus:
-        show: true
-        username: "ichihararifa"
+        show: false
+        username: ""
     linkedin:
-        show: true
-        profile: "https://linkedin.com/in/your-profile-id-here"
+        show: false
+        username: ""
 sass:
     sass_dir: _sass
     style: compressed
