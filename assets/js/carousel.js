@@ -14,7 +14,14 @@
         onCycleTo: null // Callback for when a new slide is cycled to.
       };
       options = $.extend(defaults, options);
-      var namespace = Materialize.objectSelectorString($(this));
+		var objectSelectorString = function(obj) {
+				var tagStr = obj.prop('tagName') || '';
+				var idStr = obj.attr('id') || '';
+				var classStr = obj.attr('class') || '';
+				return (tagStr + idStr + classStr).replace(/\s/g,'');
+			};
+		//var namespace = Materialize.objectSelectorString($(this));
+		var namespace = objectSelectorString($(this));
 
       return this.each(function(i) {
 
