@@ -3,6 +3,26 @@
 		<div class="carousel-fixed-item center">
 		  <a class="btn waves-effect white grey-text darken-text-2">button</a>
 		</div>
+		
+        {% for post in posts %}
+		<div class="carousel-item red white-text" href="#one!">
+			<div class="row no-margin">
+				<a class="waves-effect" href="{{ post.url | prepend: site.baseurl }}">
+					<div class="col s12">
+						<div class="list-article">
+							<h2 class="white-text">{{ post.title }}</h4>
+							<p class="white-text">
+								{{ post.excerpt | strip_html }}
+							</p>
+							<br/>
+						</div>
+						<div class="divider dashed"></div>
+					</div>
+				</a>
+			</div>
+		</div>
+        {% endfor %}
+		
 		<div class="carousel-item red white-text" href="#one!">
 		  <h2>First Panel</h2>
 		  <p class="white-text">This is your first panel</p>
