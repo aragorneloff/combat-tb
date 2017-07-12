@@ -5,11 +5,12 @@
 		</div>
 		
 		{% for post in site.categories.carousel %}
-			{{ post.title }} <br/>
+			{{ post.title }} !<br/>
 		{% endfor %}
 		
 		
         {% for post in posts %}
+		!!
 		<div class="carousel-item red white-text" href="#one!">
 			<div class="row no-margin">
 				<a class="waves-effect" href="{{ post.url | prepend: site.baseurl }}">
