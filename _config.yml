@@ -31,6 +31,6 @@ sass:
     style: compressed
 permalink: "/article/:title"
 markdown: kramdown
-highlighter: pygments
+highlighter: rouge
 gems:
     - jekyll-feed
