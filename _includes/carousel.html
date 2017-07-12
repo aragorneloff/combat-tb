@@ -4,6 +4,11 @@
 		  <a class="btn waves-effect white grey-text darken-text-2">button</a>
 		</div>
 		
+		{% for post in site.categories.carousel %}
+			{{ post.title }} <br/>
+		{% endfor %}
+		
+		
         {% for post in posts %}
 		<div class="carousel-item red white-text" href="#one!">
 			<div class="row no-margin">
