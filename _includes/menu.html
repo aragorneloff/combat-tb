@@ -1,6 +1,6 @@
 {% for item in include.menu %}
   <li>
     <a class="teal-text" href="{{item.url}}">{{item.title}}</a>
-    {% if item.children.size > 0 %}{% include menu.html menu=item.children %}{% endif %}
+    {% if item.children.size > 0 %}{% include submenu.html menu=item.children %}{% endif %}
   </li>
 {% endfor %}
