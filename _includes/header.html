@@ -1,4 +1,4 @@
-
+<!--
 <div class="navbar-fixed">
 <nav class="white teal-text z-depth-0">
     <ul id="slide-out" class="side-nav">
@@ -23,7 +23,7 @@
     </div>
 </nav>
 </div>
-
+-->
 
 <div class="navbar-fixed">
 <nav class="white teal-text z-depth-0">
@@ -32,15 +32,15 @@
 			{% for dale in site.data.nav %}
 				{% if dale.subcategories != null %}
 					<li class="dropdown">
-						<a href="{{ site.url }}{{ dale.url }}" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown">{{ dale.title }}<i class="fa fa-angle-down"></i></a>
+						<a href="{{ site.url }}{{ dale.url }}" class="dropdown-toggle teal-text" data-toggle="dropdown" data-hover="dropdown">{{ dale.title }}<i class="fa fa-angle-down"></i></a>
 						<ul class="dropdown-menu">
 							{% for subcategory in dale.subcategories %}
-								<li><a href="{{ site.url }}{{ subcategory.subhref }}">{{ subcategory.subtitle }}</a></li>
+								<li><a class="teal-text" href="{{ site.url }}{{ subcategory.subhref }}">{{ subcategory.subtitle }}</a></li>
 							{% endfor %}
 						</ul>
 				{% else %}
 					<li>
-						<a href="{{ site.url }}{{ dale.href }}">{{ dale.title }}</a>
+						<a class="teal-text" href="{{ site.url }}{{ dale.href }}">{{ dale.title }}</a>
 				{% endif %}
 				</li>
 				{% endfor %}
@@ -51,15 +51,15 @@
 			{% for dale in site.data.nav %}
 				{% if dale.subcategories != null %}
 					<li class="dropdown">
-						<a href="{{ site.url }}{{ dale.url }}" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown">{{ dale.title }}<i class="fa fa-angle-down"></i></a>
+						<a href="{{ site.url }}{{ dale.url }}" class="dropdown-toggle teal-text" data-toggle="dropdown" data-hover="dropdown">{{ dale.title }}<i class="fa fa-angle-down"></i></a>
 						<ul class="dropdown-menu">
 							{% for subcategory in dale.subcategories %}
-								<li><a href="{{ site.url }}{{ subcategory.subhref }}">{{ subcategory.subtitle }}</a></li>
+								<li><a class="teal-text" href="{{ site.url }}{{ subcategory.subhref }}">{{ subcategory.subtitle }}</a></li>
 							{% endfor %}
 						</ul>
 				{% else %}
 					<li>
-						<a href="{{ site.url }}{{ dale.href }}">{{ dale.title }}</a>
+						<a class="teal-text" href="{{ site.url }}{{ dale.href }}">{{ dale.title }}</a>
 				{% endif %}
 				</li>
 				{% endfor %}
