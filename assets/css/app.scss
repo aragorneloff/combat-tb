@@ -23,6 +23,10 @@ main {
   color: #FF0000;
 }
 
+.hidden{
+  display: none;
+}
+
 @media #{$medium-and-up} {
   .container {
     width: 75%;
