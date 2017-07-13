@@ -27,6 +27,12 @@ main {
   display: none;
 }
 
+.sub{
+  display: block;
+  margin-left: -300px;
+  margin-top:50px;
+}
+
 @media #{$medium-and-up} {
   .container {
     width: 75%;
