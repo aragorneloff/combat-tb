@@ -29,8 +29,11 @@ main {
 
 .sub{
   display: block;
-  margin-left: -300px;
+  margin-left: -20px;
   margin-top:50px;
+  background-color:#FFF;
+  padding: 10px;
+  color: #FF0000;
 }
 
 @media #{$medium-and-up} {
