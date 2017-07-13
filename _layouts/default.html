@@ -20,6 +20,10 @@
 		$('.carousel.carousel-slider').carousel({fullWidth: true});
         $(".button-collapse").sideNav();
         $('nav a').addClass('waves-effect waves-light');
+        $('nav a').click(function(){
+			console.log("!");
+			$('nav a').removeClass('hidden');
+		});
     });
     </script>
 </body>
