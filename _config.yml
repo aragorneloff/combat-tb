@@ -32,3 +32,16 @@ markdown: kramdown
 highlighter: rouge
 gems:
     - jekyll-feed
+menu:
+- title: Home
+  url: /
+- title: About
+  url: /about
+  children:
+  - title: Contact
+    url: /about/contact
+  - title: Team
+    url: /about/team
+  - title: Follow us
+    url: http://facebook.com/
+
