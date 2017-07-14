@@ -5,9 +5,10 @@
   		</div>
 
       {% for post in site.categories.carousel %}
-        <div class="carousel-item red white-text" href="#one!">
+        <div class="carousel-item {{post.color}} white-text" href="#one!">
     		  <h2>{{ post.title }}</h2>
     		  <p class="white-text">{{ post.excerpt | strip_html }}</p>
+          <a href="{{post.link}}">View</a>
     		</div>
   		{% endfor %}
 
@@ -28,6 +29,6 @@
   		  <h2>Fourth Panel</h2>
   		  <p class="white-text">This is your fourth panel</p>
   		</div> -->
-    
+
 	  </div>
   </div>
