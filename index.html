@@ -12,7 +12,18 @@ layout: default
                 <div class="divider"></div>
             </div>
         </div>
-        
+
+        <!-- test listing cats -->
+        {% for category in site.categories %}
+          <h2>{{ category[0] }}</h2>
+          <ul>
+            {% for post in category[1] %}
+              <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+            {% endfor %}
+          </ul>
+        {% endfor %}
+
+
         {% for post in paginator.posts %}
         <div class="row no-margin">
             <a class="waves-effect" href="{{ post.url | prepend: site.baseurl }}">
@@ -21,7 +32,7 @@ layout: default
                         <h4 class="teal-text thin">{{ post.title }}</h4>
                         <p class="grey-text text-darken-1 light">Published at {{ post.date | date: "%B %-d, %Y" }}.</p>
                         <article class="grey-text text-darken-2 post-content on-index light">
-                                {{ post.excerpt | strip_html }}. . 
+                                {{ post.excerpt | strip_html }}. .
                         </article>
                         <br/>
                     </div>
