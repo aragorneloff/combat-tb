@@ -1,14 +1,14 @@
-  <div class="container container-large">
+  <div class="carousel-outer container container-large">
 	  <div class="carousel carousel-slider center" data-indicators="true">
 		<div class="carousel-fixed-item center">
 		  <a class="btn waves-effect white grey-text darken-text-2">button</a>
 		</div>
-		
+
 		{% for post in site.categories.carousel %}
 			{{ post.title }} !<br/>
 		{% endfor %}
-		
-		
+
+
         {% for post in posts %}
 		!!
 		<div class="carousel-item red white-text" href="#one!">
@@ -28,7 +28,7 @@
 			</div>
 		</div>
         {% endfor %}
-		
+
 		<div class="carousel-item red white-text" href="#one!">
 		  <h2>First Panel</h2>
 		  <p class="white-text">This is your first panel</p>
