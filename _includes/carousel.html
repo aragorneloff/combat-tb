@@ -1,49 +1,33 @@
   <div class="carousel-outer container container-large">
 	  <div class="carousel carousel-slider center" data-indicators="true">
-		<div class="carousel-fixed-item center">
-		  <a class="btn waves-effect white grey-text darken-text-2">button</a>
-		</div>
+  		<div class="carousel-fixed-item center">
+  		  <a class="btn waves-effect white grey-text darken-text-2">button</a>
+  		</div>
 
-		{% for post in site.categories.carousel %}
-			{{ post.title }} !<br/>
-		{% endfor %}
+      {% for post in site.categories.carousel %}
+        <div class="carousel-item red white-text" href="#one!">
+    		  <h2>{{ post.title }}</h2>
+    		  <p class="white-text">{{ post.excerpt | strip_html }}</p>
+    		</div>
+  		{% endfor %}
 
 
-        {% for post in posts %}
-		!!
-		<div class="carousel-item red white-text" href="#one!">
-			<div class="row no-margin">
-				<a class="waves-effect" href="{{ post.url | prepend: site.baseurl }}">
-					<div class="col s12">
-						<div class="list-article">
-							<h2 class="white-text">{{ post.title }}</h4>
-							<p class="white-text">
-								{{ post.excerpt | strip_html }}
-							</p>
-							<br/>
-						</div>
-						<div class="divider dashed"></div>
-					</div>
-				</a>
-			</div>
-		</div>
-        {% endfor %}
-
-		<div class="carousel-item red white-text" href="#one!">
-		  <h2>First Panel</h2>
-		  <p class="white-text">This is your first panel</p>
-		</div>
-		<div class="carousel-item amber white-text" href="#two!">
-		  <h2>Second Panel</h2>
-		  <p class="white-text">This is your second panel</p>
-		</div>
-		<div class="carousel-item green white-text" href="#three!">
-		  <h2>Third Panel</h2>
-		  <p class="white-text">This is your third panel</p>
-		</div>
-		<div class="carousel-item blue white-text" href="#four!">
-		  <h2>Fourth Panel</h2>
-		  <p class="white-text">This is your fourth panel</p>
-		</div>
+  		<!-- <div class="carousel-item red white-text" href="#one!">
+  		  <h2>First Panel</h2>
+  		  <p class="white-text">This is your first panel</p>
+  		</div>
+  		<div class="carousel-item amber white-text" href="#two!">
+  		  <h2>Second Panel</h2>
+  		  <p class="white-text">This is your second panel</p>
+  		</div>
+  		<div class="carousel-item green white-text" href="#three!">
+  		  <h2>Third Panel</h2>
+  		  <p class="white-text">This is your third panel</p>
+  		</div>
+  		<div class="carousel-item blue white-text" href="#four!">
+  		  <h2>Fourth Panel</h2>
+  		  <p class="white-text">This is your fourth panel</p>
+  		</div> -->
+    
 	  </div>
   </div>
