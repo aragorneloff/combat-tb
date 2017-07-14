@@ -1,14 +1,14 @@
   <div class="carousel-outer container container-large">
 	  <div class="carousel carousel-slider center" data-indicators="true">
-  		<div class="carousel-fixed-item center">
-  		  <a class="btn waves-effect white grey-text darken-text-2">button</a>
-  		</div>
 
       {% for post in site.categories.carousel %}
         <div class="carousel-item {{post.color}} white-text" href="#one!">
     		  <h2>{{ post.title }}</h2>
     		  <p class="white-text">{{ post.excerpt | strip_html }}</p>
-          <a href="{{post.link}}">View</a>
+          <div class="carousel-fixed-item center">
+      		  <a href="{{post.link}}" class="btn waves-effect white grey-text darken-text-2">button</a>
+      		</div>
+
     		</div>
   		{% endfor %}
 
