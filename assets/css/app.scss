@@ -10,6 +10,11 @@ body {
   min-height: 100vh;
   flex-direction: column;
 }
+
+nav {
+  margin-bottom: 40px;
+}
+
 main {
   flex: 1 0 auto;
 }
@@ -100,7 +105,7 @@ article {
           font-weight: 200;
       }
       li {
-        list-style-type: disc;    
+        list-style-type: disc;
       }
       &.on-index {
         padding:0;
