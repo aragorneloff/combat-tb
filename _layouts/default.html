@@ -16,14 +16,15 @@
     <script type="text/javascript" src="{{ "/assets/js/carousel.js" | prepend: site.baseurl }}"></script>
     <script type="text/javascript">
     $(function() {
-		console.log("!x!");
-		$('.carousel.carousel-slider').carousel({fullWidth: true});
-        $(".button-collapse").sideNav();
-        $('nav a').addClass('waves-effect waves-light');
-        $('nav a').click(function(){
-			console.log("!");
-			$('.hidden').addClass('sub');
-		});
+      $(".dropdown-button").dropdown();
+
+  		$('.carousel.carousel-slider').carousel({fullWidth: true});
+          $(".button-collapse").sideNav();
+          $('nav a').addClass('waves-effect waves-light');
+          $('nav a').click(function(){
+  			console.log("!");
+  			$('.hidden').addClass('sub');
+  		});
     });
     </script>
 </body>
