@@ -9,7 +9,13 @@ layout: default
     <div class="group-article">
         <div class="row no-margin">
             <div class="col s12">
-                <h2 class="teal-text thin">Recent Posts</h2>
+                <h2 class="teal-text thin">About the combatTB project</h2>
+                <p class="grey-text text-darken-2 post-content on-index light">
+                Man braid vaporware tofu craft beer, semiotics gentrify pop-up plaid cardigan enamel pin distillery sartorial. Seitan umami pop-up cloud bread health goth. Twee authentic keytar paleo gluten-free street art messenger bag meditation. Retro adaptogen raw denim everyday carry fanny pack mixtape tacos. Man bun pok pok viral cold-pressed bespoke microdosing activated charcoal small batch authentic vape helvetica. Godard tumeric church-key, master cleanse prism typewriter messenger bag tofu four loko four dollar toast photo booth lo-fi. Etsy flannel mixtape fingerstache lo-fi vice photo booth brooklyn tbh ethical selfies keytar freegan distillery tilde. Air plant meditation vaporware selvage. Keffiyeh wayfarers raw denim cred letterpress iceland cornhole next level. Hoodie echo park fam post-ironic, swag offal la croix woke art party thundercats intelligentsia next level. Keffiyeh mixtape sustainable, fashion axe cliche yr polaroid aesthetic. Coloring book yuccie street art vegan. Tumeric woke poke, knausgaard raw denim copper mug mlkshk retro art party fixie fashion axe locavore vegan.
+                </p>
+                <p class="grey-text text-darken-2 post-content on-index light">
+                Vexillologist kinfolk XOXO cloud bread raw denim polaroid blog schlitz truffaut distillery tacos wolf. Squid activated charcoal etsy kale chips paleo before they sold out bicycle rights hell of jean shorts polaroid distillery typewriter banh mi. Beard try-hard pabst art party hexagon. Yr shabby chic you probably haven't heard of them, before they sold out polaroid echo park intelligentsia tumblr skateboard taxidermy fam ugh thundercats. 90's celiac etsy church-key, kickstarter kitsch letterpress fanny pack activated charcoal meh paleo listicle. Pug fam kickstarter listicle, palo santo shoreditch mustache raw denim. Four loko la croix mixtape hell of. Normcore biodiesel mlkshk scenester vice quinoa hoodie chartreuse. Cornhole pop-up meh pour-over, food truck echo park taiyaki crucifix af kombucha try-hard green juice. Butcher ugh messenger bag, lomo mixtape authentic slow-carb intelligentsia semiotics. Pop-up drinking vinegar VHS health goth hexagon, tumblr vice flannel everyday carry. Godard you probably haven't heard of them venmo whatever, etsy glossier hexagon fingerstache PBR&B gochujang everyday carry fashion axe cloud bread drinking vinegar. Single-origin coffee poke tumblr sartorial yr post-ironic cold-pressed fam ethical edison bulb food truck jianbing semiotics. Messenger bag chartreuse la croix, poke distillery normcore forage hexagon celiac.
+                </p>
                 <div class="divider"></div>
             </div>
         </div>
@@ -17,23 +23,6 @@ layout: default
         <!-- show post excerpts -->
         <div class="row">
             <div class="col s8">
-                {% for post in paginator.posts %}
-                <div class="row no-margin">
-                    <a class="waves-effect waves-light" href="{{ post.url | prepend: site.baseurl }}">
-                        <div class="col s12">
-                            <div class="list-article">
-                                <h4 class="thin">{{ post.title }}</h4>
-                                <p class="grey-text text-darken-1 light">Published at {{ post.date | date: "%B %-d, %Y" }}.</p>
-                                <article class="grey-text text-darken-2 post-content on-index light">
-                                        {{ post.excerpt | strip_html }}. .
-                                </article>
-                                <br/>
-                            </div>
-                            <div class="divider dashed"></div>
-                        </div>
-                    </a>
-                </div>
-                {% endfor %}
             </div>
 
             <!-- highlights  -->
@@ -44,35 +33,6 @@ layout: default
                 </div>
             </div>
         </div>
-    </div>
-
-
-
-    <!-- pagination -->
-    <div class="section">
-        {% if paginator.total_pages > 1 %}
-            <ul class="pagination center-align">
-                {% if paginator.previous_page %}
-                    <li class="waves-effect waves-light orange lighten-2"><a class="white-text" href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&laquo; Prev</a></li>
-                {% else %}
-                    <li class="waves-effect waves-light disabled orange lighten-2"><a class="white-text" href="#">&laquo; Prev</a></li>
-                {% endif %}
-                {% for page in (1..paginator.total_pages) %}
-                    {% if page == paginator.page %}
-                        <li class="waves-effect waves-light active orange"><a href="#">{{ page }}</a></li>
-                    {% elsif page == 1 %}
-                        <li class="waves-effect waves-light orange lighten-2"><a class="white-text" href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">{{ page }}</a></li>
-                    {% else %}
-                        <li class="waves-effect waves-light orange lighten-2"><a class="white-text" href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a></li>
-                    {% endif %}
-                {% endfor %}
-                {% if paginator.next_page %}
-                    <li class="waves-effect waves-light orange lighten-2"><a class="white-text" href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Next &raquo;</a></li>
-                {% else %}
-                    <li class="waves-effect waves-light disabled orange lighten-2"><a class="white-text" href="#">Next &raquo;</a></li>
-                {% endif %}
-            </ul>
-        {% endif %}
     </div>
 
 </div>
