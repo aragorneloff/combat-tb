@@ -35,7 +35,6 @@ body {
   min-height: 100vh;
   flex-direction: column;
   color: $primary-text-color;
-  font-size: 1.1em;
 }
 
 main {
@@ -68,6 +67,11 @@ main {
 
 .hidden{
   display: none;
+}
+
+.post-content{
+  max-width: 38em;
+  padding-right: 20px;
 }
 
 .no-margin {
@@ -147,6 +151,7 @@ article {
 .highlights{
   background-color: $light-primary-color;
   padding: 20px;
+  margin-top: 200px;
 }
 
 footer.page-footer {
