@@ -15,23 +15,31 @@ layout: default
         </div>
 
         <!-- show post excerpts -->
-        {% for post in paginator.posts %}
-        <div class="row no-margin">
-            <a class="waves-effect" href="{{ post.url | prepend: site.baseurl }}">
-                <div class="col s12">
-                    <div class="list-article">
-                        <h4 class="thin">{{ post.title }}</h4>
-                        <p class="grey-text text-darken-1 light">Published at {{ post.date | date: "%B %-d, %Y" }}.</p>
-                        <article class="grey-text text-darken-2 post-content on-index light">
-                                {{ post.excerpt | strip_html }}. .
-                        </article>
-                        <br/>
-                    </div>
-                    <div class="divider dashed"></div>
+        <div class="row">
+            <div class="col s8">
+                {% for post in paginator.posts %}
+                <div class="row no-margin">
+                    <a class="waves-effect" href="{{ post.url | prepend: site.baseurl }}">
+                        <div class="col s12">
+                            <div class="list-article">
+                                <h4 class="thin">{{ post.title }}</h4>
+                                <p class="grey-text text-darken-1 light">Published at {{ post.date | date: "%B %-d, %Y" }}.</p>
+                                <article class="grey-text text-darken-2 post-content on-index light">
+                                        {{ post.excerpt | strip_html }}. .
+                                </article>
+                                <br/>
+                            </div>
+                            <div class="divider dashed"></div>
+                        </div>
+                    </a>
                 </div>
-            </a>
+                {% endfor %}
+            </div>
+            <div class="col s4">
+                <h3 class="teal-text">Highlights</h3>
+                <p class="grey-text text-darken-1 light">Lipsum</p>
+            </div>
         </div>
-        {% endfor %}
     </div>
 
 

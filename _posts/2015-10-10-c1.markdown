@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Carousel 1"
+title: "Screenshot of COMBAT TB Explorer with JBrowse genome browser"
 date: 2015-10-10 00:49:37
 categories: carousel
 link: alink
