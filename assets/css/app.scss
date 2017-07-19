@@ -35,6 +35,8 @@ body {
   min-height: 100vh;
   flex-direction: column;
   color: $primary-text-color;
+  padding-bottom: 15px;
+  border-bottom: 1px solid $divider-color;
 }
 
 main {
@@ -56,8 +58,8 @@ main {
 }
 
 .dropdown-content{
-  width: auto;
-  top: 64px;
+  width: auto!important;
+  top: 64px!important;
 }
 
 .hidden{
