@@ -1,8 +1,7 @@
 ---
 layout: page
-title: About
-permalink: /sec/support/
-navigation_weight: 3
+title: Galaxy Guide
+permalink: /education/galaxy-guide/
 ---
 
 Hello World!
