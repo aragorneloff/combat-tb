@@ -14,14 +14,11 @@ layout: default
         </div>
 
         <!-- test listing cats -->
-        {% for category in site.categories | where:"category","newcat" %}
-          <h2>{{ category[0] }}</h2>
-          <ul>
-            {% for post in category[1] %}
-              <li>xxx<a href="{{ post.url }}">{{ post.title }}</a></li>
-            {% endfor %}
-          </ul>
+        <ul>
+        {% for post in site.categories.newcat %}
+            <li><a class="teal-text" href="{{ post.url }}">{{ post.title }}</a></li>
         {% endfor %}
+        </ul>
 
 
         {% for post in paginator.posts %}
