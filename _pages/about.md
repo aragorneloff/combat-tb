@@ -5,5 +5,4 @@ permalink: /about/
 navigation_weight: 1
 ---
 
-Hello World! 
-Welcome to jekyll-materialize
+This is the about section... it should possibly just take you home.

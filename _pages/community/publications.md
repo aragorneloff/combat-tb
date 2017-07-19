@@ -4,5 +4,4 @@ title: Publications
 permalink: /community/publications/
 ---
 
-Hello World!
-Welcome to jekyll-materialize
+Publications posts go here - pulled in via 3rd party system?

@@ -4,5 +4,4 @@ title: Events
 permalink: /community/events/
 ---
 
-Hello World!
-Welcome to jekyll-materialize
+Events go here - check for calendar plug

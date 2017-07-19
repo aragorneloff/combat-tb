@@ -4,5 +4,4 @@ title: Galaxy Guide
 permalink: /education/galaxy-guide/
 ---
 
-Hello World!
-Welcome to jekyll-materialize
+Galaxy guide goes here

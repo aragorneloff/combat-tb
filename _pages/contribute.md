@@ -2,7 +2,8 @@
 layout: page
 title: About
 permalink: /contribute/
+navigation_weight: 3
 ---
 
-Hello World!
-Welcome to jekyll-materialize
+Link to COMBAT TB Github organisation
+Installation guide
