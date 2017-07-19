@@ -5,6 +5,7 @@ layout: default
 {% include carousel.html %}
 
 <div class="container">
+
     <div class="group-article">
         <div class="row no-margin">
             <div class="col s12">
@@ -13,14 +14,7 @@ layout: default
             </div>
         </div>
 
-        <!-- test listing cats -->
-        <ul>
-        {% for post in site.categories.newcat %}
-            <li><a class="teal-text" href="{{ post.url }}">{{ post.title }}</a></li>
-        {% endfor %}
-        </ul>
-
-
+        <!-- show post excerpts -->
         {% for post in paginator.posts %}
         <div class="row no-margin">
             <a class="waves-effect" href="{{ post.url | prepend: site.baseurl }}">
@@ -38,20 +32,19 @@ layout: default
             </a>
         </div>
         {% endfor %}
-
     </div>
 
-    <div class="section">
 
+
+    <!-- pagination -->
+    <div class="section">
         {% if paginator.total_pages > 1 %}
             <ul class="pagination center-align">
-
                 {% if paginator.previous_page %}
                     <li class="waves-effect teal lighten-2"><a class="white-text" href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&laquo; Prev</a></li>
                 {% else %}
                     <li class="waves-effect disabled teal lighten-2"><a class="white-text" href="#">&laquo; Prev</a></li>
                 {% endif %}
-
                 {% for page in (1..paginator.total_pages) %}
                     {% if page == paginator.page %}
                         <li class="waves-effect active teal"><a href="#">{{ page }}</a></li>
@@ -61,15 +54,13 @@ layout: default
                         <li class="waves-effect teal lighten-2"><a class="white-text" href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a></li>
                     {% endif %}
                 {% endfor %}
-
                 {% if paginator.next_page %}
                     <li class="waves-effect teal lighten-2"><a class="white-text" href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Next &raquo;</a></li>
                 {% else %}
                     <li class="waves-effect disabled teal lighten-2"><a class="white-text" href="#">Next &raquo;</a></li>
                 {% endif %}
-
             </ul>
         {% endif %}
-
     </div>
+
 </div>

@@ -5,12 +5,23 @@
 @import "fontawesome";
 @import "pygments";
 
+//colours
+$dark-primary-color: #00796B;
+$default-primary-color: #009688;
+$light-primary-color: #B2DFDB;
+$text-primary-color: #FFFFFF;
+$accent-color: #607D8B;
+$primary-text-color: #212121;
+$secondary-text-color: #757575;
+$divider-color: #BDBDBD;
+
+
 body {
   display: flex;
   min-height: 100vh;
   flex-direction: column;
+  color: $primary-text-color;
 }
-
 
 main {
   flex: 1 0 auto;
@@ -25,22 +36,18 @@ main {
   margin-top: 50px;
 }
 
+.footer-copyright{
+  background-color: $accent-color;
+}
+
 .active{
-  color: #FF0000;
+  color: $divider-color;
 }
 
 .hidden{
   display: none;
 }
 
-.sub{
-  display: block;
-  margin-left: -20px;
-  margin-top:70px;
-  background-color:#FFF;
-  padding: 10px;
-  color: #FF0000;
-}
 
 @media #{$medium-and-up} {
   .container {
