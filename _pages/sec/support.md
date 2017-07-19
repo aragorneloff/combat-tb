@@ -1,7 +1,7 @@
 ---
 layout: page
 title: About
-permalink: /support/
+permalink: /sec/support/
 navigation_weight: 3
 ---
 
