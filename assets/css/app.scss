@@ -35,8 +35,6 @@ body {
   min-height: 100vh;
   flex-direction: column;
   color: $primary-text-color;
-  padding-bottom: 15px;
-  border-bottom: 1px solid $divider-color;
 }
 
 main {
@@ -55,6 +53,10 @@ main {
 
 .active{
   color: $divider-color;
+}
+
+.main-content{
+  margin-top:80px;
 }
 
 .dropdown-content{
