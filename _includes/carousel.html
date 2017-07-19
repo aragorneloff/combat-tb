@@ -2,7 +2,7 @@
 	  <div class="carousel carousel-slider center" data-indicators="true">
 
       {% for post in site.categories.carousel %}
-        <div class="carousel-item {{post.color}} white-text" href="#one!">
+        <div class="carousel-item white-text" style="background-color:#{{post.color}}" href="#one!">
     		  <h2>{{ post.title }}</h2>
     		  <p class="white-text">{{ post.excerpt | strip_html }}</p>
           <div class="carousel-fixed-item center">
@@ -11,6 +11,6 @@
 
     		</div>
   		{% endfor %}
-      
+
 	  </div>
   </div>
