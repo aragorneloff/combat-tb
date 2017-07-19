@@ -14,7 +14,7 @@ layout: default
         </div>
 
         <!-- test listing cats -->
-        {% for category in site.categories %}
+        {% for category in site.categories | where:"category","newcat" %}
           <h2>{{ category[0] }}</h2>
           <ul>
             {% for post in category[1] %}

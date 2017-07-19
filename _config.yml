@@ -1,8 +1,7 @@
 # Site settings
-title: Jekyll-materialize
-description: > # this means to ignore newlines until "baseurl:"
-    This is a description of the combatTB project
-url: "http://yourdomain.com"
+title: combatTB
+description: > # Description of project
+url: "http://www.combattb.org"
 baseurl: ""
 logo: combat<b>TB</b>
 paginate: 3
@@ -32,19 +31,3 @@ markdown: kramdown
 highlighter: rouge
 gems:
     - jekyll-feed
-menu:
-- title: Home
-  url: /
-- title: About
-  url: /about
-  children:
-  - title: Contact
-    url: /about/contact
-  - title: Team
-    url: /about/team
-  - title: Follow us
-    url: http://facebook.com/
-- title: Stuff
-  url: /stuff
-
-  
