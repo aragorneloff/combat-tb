@@ -26,8 +26,9 @@ owner:
 sass:
     sass_dir: _sass
     style: compressed
-permalink: "/article/:title"
+permalink: /:title/
 markdown: kramdown
 highlighter: rouge
 gems:
     - jekyll-feed
+include: ['_pages']
