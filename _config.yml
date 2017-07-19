@@ -2,7 +2,7 @@
 title: combatTB
 description: > # Description of project
 url: "http://www.combattb.org"
-baseurl: ""
+baseurl: "combat-tb"
 logo: combat<b>TB</b>
 paginate: 3
 paginate_path: "/page:num/"
