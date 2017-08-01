@@ -67,6 +67,10 @@ nav {
   height: 66px!important;
 }
 
+.dropdown-content li>a, .dropdown-content li>span {
+    color: $dark-primary-color!important;
+}
+
 .carousel-outer{
   margin-top: 0px;
 }
