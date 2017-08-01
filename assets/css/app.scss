@@ -72,7 +72,7 @@ main {
 }
 
 .white-article-bg {
-  padding: 30px;
+  padding: 40px!important;
   background-color: #FFF;
 }
 
@@ -165,9 +165,7 @@ article {
 }
 
 .highlights{
-  background-color: $light-primary-color;
-  padding: 20px;
-  margin-top: 200px;
+  /*background-color: $light-primary-color;*/
 }
 
 footer.page-footer {
