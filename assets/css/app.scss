@@ -37,6 +37,10 @@ body {
   min-height: 100vh;
   flex-direction: column;
   color: $primary-text-color;
+
+  background: #42FFFB;
+  background: -webkit-linear-gradient(to right, #B2DFDB, #42FFFB);
+  background: linear-gradient(to right, #B2DFDB, #42FFFB);
 }
 
 main {
