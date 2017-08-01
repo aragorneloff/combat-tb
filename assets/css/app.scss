@@ -57,6 +57,11 @@ main {
   margin-top: 0px;
 }
 
+.carousel.carousel-slider .carousel-item p {
+  max-width: 42em;
+  margin: auto;
+}
+
 .active{
   color: $divider-color;
 }
