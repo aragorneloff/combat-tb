@@ -3,6 +3,7 @@ layout: post
 title: "Phylogeny image"
 date: 2015-10-10 00:49:37
 categories: carousel
+pic: 3.png
 link: alink3
 color: ff6659
 ---

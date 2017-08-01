@@ -3,6 +3,7 @@ layout: post
 title: "Screenshot of COMBAT TB Explorer with JBrowse genome browser"
 date: 2015-10-10 00:49:37
 categories: carousel
+pic: 1.jpg
 link: alink
 color: 00796B
 ---
