@@ -39,8 +39,8 @@ body {
   color: $primary-text-color;
 
   background: #42FFFB;
-  background: -webkit-linear-gradient(to right, #B2DFDB, #42FFFB);
-  background: linear-gradient(to right, #B2DFDB, #42FFFB);
+  background: -webkit-linear-gradient(to right, #B2DFDB, #D2FFFB);
+  background: linear-gradient(to right, #B2DFDB, #D2FFFB);
 }
 
 main {
@@ -54,7 +54,7 @@ main {
 }
 
 .carousel-outer{
-  margin-top: 50px;
+  margin-top: 0px;
 }
 
 .active{
