@@ -5,29 +5,20 @@
 @import "fontawesome";
 @import "pygments";
 
-//colours
-/*
-$dark-primary-color: #00796B;
-$default-primary-color: #009688;
-$light-primary-color: #B2DFDB;
 
-$accent-color: #d32f2f;
-$dark-accent-color: #9a0007;
-$light-accent-color: #ff6659;
-*/
 
 $primary-text-color: #212121;
 $secondary-text-color: #757575;
 
 $divider-color: #BDBDBD;
 
-$dark-primary-color: #9e9d24;
-$default-primary-color: #cddc39;
+$dark-primary-color: #827717;
+$default-primary-color: #c0ca33;
 $light-primary-color: #e6ee9c;
 
-$accent-color: #997568;
-$dark-accent-color: #795548;
-$light-accent-color: #b99588;
+$accent-color: #607d8b;
+$dark-accent-color: #263238;
+$light-accent-color: #eceff1;
 
 
 
@@ -48,9 +39,9 @@ body {
   flex-direction: column;
   color: $primary-text-color;
 
-  background: #e6ee9c;
-  background: -webkit-linear-gradient(to right, #e6ee9c, #f6feac);
-  background: linear-gradient(to right, #e6ee9c, #f6feac);
+  background: $light-accent-color;
+  background: -webkit-linear-gradient(to right, $accent-color, $light-accent-color);
+  background: linear-gradient(to right, $accent-color, $light-accent-color);
 }
 
 main {
