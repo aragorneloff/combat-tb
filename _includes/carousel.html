@@ -4,7 +4,7 @@
       {% for post in site.categories.carousel %}
         <div class="carousel-item black-text" style="background-color:#{{post.color}}; background-image: url('{{|prepend: site.baseurl}}/assets/img/{{post.pic}}'); background-size: cover; background-position: center center; background-repeat: no-repeat" href="#one!">
     		  <h2 class="center-align white-text">{{ post.title }}</h2>
-    		  <p class="white-text">{{ post.excerpt | strip_html }}</p>
+    		  <p class="w">{{ post.excerpt | strip_html }}</p>
           <div class="carousel-fixed-item center">
       		  <a href="{{post.link}}" class="btn waves-effect white grey-text darken-text-2">button</a>
       		</div>

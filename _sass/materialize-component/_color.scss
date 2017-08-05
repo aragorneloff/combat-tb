@@ -258,7 +258,7 @@ $amber: (
   "accent-4":    #ffab00
 );
 
-$lime: (
+$orange: (
   "lighten-5":  #fff3e0,
   "lighten-4":  #ffe0b2,
   "lighten-3":  #ffcc80,
@@ -275,7 +275,7 @@ $lime: (
   "accent-4":    #ff6d00
 );
 
-$deep-lime: (
+$deep-orange: (
   "lighten-5":  #fbe9e7,
   "lighten-4":  #ffccbc,
   "lighten-3":  #ffab91,
@@ -292,7 +292,7 @@ $deep-lime: (
   "accent-4":    #dd2c00
 );
 
-$lime: (
+$brown: (
   "lighten-5":  #efebe9,
   "lighten-4":  #d7ccc8,
   "lighten-3":  #bcaaa4,
@@ -353,9 +353,9 @@ $colors: (
   "lime": $lime,
   "yellow": $yellow,
   "amber": $amber,
-  "lime": $lime,
-  "deep-lime": $deep-lime,
-  "lime": $lime,
+  "orange": $orange,
+  "deep-orange": $deep-orange,
+  "brown": $brown,
   "blue-grey": $blue-grey,
   "grey": $grey,
   "shades": $shades
@@ -409,4 +409,3 @@ $colors: (
   @warn "Unknown `#{name}` in $colors.";
   @return null;
 }
-
