@@ -26,7 +26,6 @@ $light-accent-color: #eceff1;
 h1,h2,h3,h4 {
   text-align: left;
   color: $dark-primary-color;
-  border-bottom: 1px solid $dark-primary-color;
   font-weight: 400;
 }
 
@@ -67,9 +66,15 @@ nav {
   margin-top: 0px;
 }
 
+.carousel h2{
+  font-size: 32px;
+  font-weight: 300;
+}
+
 .carousel.carousel-slider .carousel-item p {
   max-width: 42em;
   margin: auto;
+  color: #FFF;
 }
 
 .active{
