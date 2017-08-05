@@ -56,6 +56,8 @@ main {
 nav {
   height: 66px!important;
   background-color: $dark-primary-color!important;
+  background: -webkit-linear-gradient(to right,$dark-primary-color, $default-primary-color);
+  background: linear-gradient(to right,$dark-primary-color, $default-primary-color);
 }
 
 .dropdown-content li>a, .dropdown-content li>span {
