@@ -40,8 +40,8 @@ body {
   color: $primary-text-color;
 
   background: $light-accent-color;
-  background: -webkit-linear-gradient(to right, $accent-color, $light-accent-color);
-  background: linear-gradient(to right, $accent-color, $light-accent-color);
+  /*background: -webkit-linear-gradient(to right, $accent-color, $light-accent-color);
+  background: linear-gradient(to right, $accent-color, $light-accent-color);*/
 }
 
 main {
