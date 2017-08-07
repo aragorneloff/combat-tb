@@ -20,11 +20,10 @@ layout: default
             <!-- highlights  -->
             <div class="col s12 l4 highlights white-article-bg z-depth-2">
                 <div>
-                    <h3 class=" text-darken-2 thin"><i class="material-icons">whatshot</i> Highlights</h3>
-                    <p class=" text-darken-2">cycle through news category here and have links to posts</p>
-                    <p class=" text-darken-2">cycle through news category here and have links to posts</p>
-                    <p class=" text-darken-2">cycle through news category here and have links to posts</p>
-                    <p class=" text-darken-2">cycle through news category here and have links to posts</p>
+                    <h3 class="text-darken-2 thin">Highlights</h3>
+                    {% for post in site.categories.news %}
+                      <p class=" text-darken-2"><a href="#">{{post.title}} - {{post.date}}</a></p>
+                    {% endfor %}
                 </div>
             </div>
             <div class="divider"></div>
