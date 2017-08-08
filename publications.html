@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 ---
 
 <div class="container">
@@ -14,19 +14,13 @@ layout: default
                           {% for post in site.categories.publications %}
                           <a class="body-link" href="{{ post.url | prepend: site.baseurl }}">
                             <div class="col s12">
-                              <div class="card-title center-align"><h2 class="thin lime-text text-darken-2">{{ post.title }} - {{post.date}}</h2></div>
-                              <p class="text-darken-2">{{post.excerpt}}</p>
+                              <div class="card-title center-align"><h4 class="thin lime-text text-darken-2">{{ post.title }} - {{post.date}}</h4></div>
+                              <p class="black-text text-darken-2">{{post.excerpt}}</p>
                             </div>
                           </a>
                           {% endfor %}
                         </div>
                       </div>
-
-                        <div class="divider"></div>
-                        <br/>
-                        <article class="grey-text text-darken-2 post-content">
-                        {{ content }}
-                        </article>
                     </div>
                 </div>
             </div>
