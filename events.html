@@ -1,0 +1,14 @@
+---
+layout: default
+---
+
+<div id="events" class="container content-section">
+  <div class="row">
+    {% for post in site.categories.events %}
+    <div class="col s12">
+      <p class="text-darken-2"><a class="body-link" href="{{ post.url | prepend: site.baseurl }}">{{post.title}} - {{post.date}}</a></p>
+      <p class="text-darken-2">{{post.excerpt}}</p>
+    </div>
+    {% endfor %}
+  </div>
+</div>
