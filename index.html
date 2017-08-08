@@ -22,7 +22,7 @@ layout: default
                 <div>
                     <h3 class="white-text thin">Highlights</h3>
                     {% for post in site.categories.news %}
-                      <p class="text-darken-2"><a class="body-link" href="{{post.url}}">{{post.title}} - {{post.date}}</a></p>
+                      <p class="text-darken-2"><a class="body-link" href="{{ post.url | prepend: site.baseurl }}">{{post.title}} - {{post.date}}</a></p>
                     {% endfor %}
                 </div>
             </div>
