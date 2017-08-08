@@ -14,8 +14,10 @@ layout: default
                           {% for post in site.categories.events %}
                           <a class="body-link" href="{{ post.url | prepend: site.baseurl }}">
                             <div class="col s12">
-                              <div class="card-title center-align"><h4 class="thin lime-text text-darken-2">{{ post.title }} - {{post.date}}</h4></div>
+                              <div class="card-title center-align"><h4 class="thin lime-text text-darken-2">{{ post.title }}</h4></div>
                               <p class="black-text text-darken-2">{{post.excerpt}}</p>
+                              <br /><br />
+                              <p class="black-text"><b>{{post.date}}</b></p>
                               <br /><br />
                               <hr />
                               <br /><br />
