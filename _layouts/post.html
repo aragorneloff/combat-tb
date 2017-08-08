@@ -8,18 +8,18 @@ layout: default
     <div class="row">
         <div class="col s12">
             <div class="card-content">
-                <div class="card-title center-align"><h2 class="thin lime-text">{{ page.title }}</h2></div>
+                <div class="card-title center-align"><h2 class="thin lime-text text-darken-2">{{ page.title }}</h2></div>
                 <h5 class="center-align grey-text text-darken-1 thin">Published at {{ page.date | date: "%B %-d, %Y" }}</h5>
                 <br/>
                 <div class="divider"></div>
-                <article class="post-categories center-align">
+                <!-- <article class="post-categories center-align">
                     <div class="chip lime white-text">Categories</div>
                     {% for cat in page.categories %}<div class="chip">{{ cat }}</div> {% endfor %}
-                </article>
+                </article> -->
                 <article class="grey-text text-darken-2 post-content">
                     {{ content }}
                 </article>
-                <article class="grey-text text-darken-2">
+                <!-- <article class="grey-text text-darken-2">
                     {% for cat in page.categories %}
                         {% if site.categories.[cat].size > 1 %}
                             <aside class="related">
@@ -38,7 +38,7 @@ layout: default
                             </aside>
                         {% endif %}
                     {% endfor %}
-                </article>
+                </article> -->
             </div>
         </div>
     </div>
