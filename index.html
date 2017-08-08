@@ -18,11 +18,11 @@ layout: default
                 </p>
             </div>
             <!-- highlights  -->
-            <div class="col s12 l4 highlights white-article-bg z-depth-2">
+            <div class="col s12 l4 highlights lime-article-bg z-depth-2">
                 <div>
-                    <h3 class="text-darken-2 thin">xHighlights</h3>
+                    <h3 class="white-text thin">Highlights</h3>
                     {% for post in site.categories.news %}
-                      <p class=" text-darken-2"><a href="#">{{post.title}} - {{post.date}}</a></p>
+                      <p class="text-darken-2"><a class="body-link" href="{{post.url}}">{{post.title}} - {{post.date}}</a></p>
                     {% endfor %}
                 </div>
             </div>
