@@ -202,19 +202,28 @@ article {
 
 .content-section {
   margin-top: 50px;
+
+  p {
+    color: $primary-text-color!important;
+  }
+
 }
 
-footer .page-footer {
-  font-weight: 400;
-  font-style: normal;
-  font-size: 13px;
-  line-height: 1.5;
-  letter-spacing: -0.003em;
+footer {
+  .page-footer {
+    font-weight: 400;
+    font-style: normal;
+    font-size: 13px;
+    line-height: 1.5;
+    letter-spacing: -0.003em;
+  }
+
+  .footer-copyright{
+    background-color: $primary-text-color!important;
+  }
+
  }
 
-.footer-copyright{
-  background-color: $primary-text-color!important;
-}
 
 /* SECTIONS */
 #team{
