@@ -56,6 +56,13 @@ nav {
   background-color: $dark-primary-color!important;
   background: -webkit-linear-gradient(to right,$dark-primary-color, $default-primary-color);
   background: linear-gradient(to right,$dark-primary-color, $default-primary-color);
+
+  ul {
+    a {
+      padding: 0 10px;
+    }
+  }
+
 }
 
 .body-link {
@@ -206,7 +213,7 @@ footer .page-footer {
  }
 
 .footer-copyright{
-  background-color: $primary-text-color;
+  background-color: $primary-text-color!important;
 }
 
 /* SECTIONS */
