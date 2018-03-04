@@ -61,8 +61,10 @@ nav {
   background: linear-gradient(to right,$dark-primary-color, $default-primary-color); */
 
   ul {
+    color: $primary-text-color;
     a {
       padding: 0 10px;
+      color: $primary-text-color;
     }
   }
 
@@ -73,7 +75,7 @@ nav {
 }
 
 .dropdown-content li>a, .dropdown-content li>span {
-    color: $dark-primary-color!important;
+    color: $primary-text-color!important;
     font-size: 1rem;
 }
 
