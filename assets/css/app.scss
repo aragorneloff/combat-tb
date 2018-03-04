@@ -7,6 +7,8 @@
 
 
 
+$white: #FFFFFF;
+
 $primary-text-color: #212121;
 $secondary-text-color: #757575;
 
@@ -53,9 +55,10 @@ main {
 
 nav {
   height: 66px!important;
-  background-color: $dark-primary-color!important;
-  background: -webkit-linear-gradient(to right,$dark-primary-color, $default-primary-color);
-  background: linear-gradient(to right,$dark-primary-color, $default-primary-color);
+  background-color: $white!important;
+  color: $primary-text-colour;
+  /* background: -webkit-linear-gradient(to right,$dark-primary-color, $default-primary-color);
+  background: linear-gradient(to right,$dark-primary-color, $default-primary-color); */
 
   ul {
     a {
