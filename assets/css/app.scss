@@ -56,7 +56,7 @@ main {
 nav {
   height: 66px!important;
   background-color: $white!important;
-  color: $primary-text-colour;
+  color: $primary-text-color;
   /* background: -webkit-linear-gradient(to right,$dark-primary-color, $default-primary-color);
   background: linear-gradient(to right,$dark-primary-color, $default-primary-color); */
 
@@ -74,6 +74,7 @@ nav {
 
 .dropdown-content li>a, .dropdown-content li>span {
     color: $dark-primary-color!important;
+    font-size: 1rem;
 }
 
 .carousel-outer{
