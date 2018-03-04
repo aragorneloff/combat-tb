@@ -11,16 +11,19 @@ layout: default
     <div class="highlights-section">
         <div class="content-section">
             <div class="section-inner">
+                <center>
                 <h3 class="black-text"><center>Highlights</center></h3>
                 {% for post in site.categories.news %}
                   <p class="black-text text-darken-2"><a class="body-link" href="{{ post.url | prepend: site.baseurl }}">{{post.title}} - {{post.date}}</a></p>
                 {% endfor %}
+                </center>
             </div>
         </div>
     </div>
 
     <div class="supported-section">
         <div class="content-section">
+            <center>
             <h3 class="black-text"><center>Supported by</center></h3>
             <div class="row">
                 <div class="col s6 m3 highlights blue-article-bg nn">
@@ -36,11 +39,13 @@ layout: default
                     logo here
                 </div>
             </div>
+            </center>
         </div>
     </div>
 
     <div class="news-section">
       <div class="content-section">
+          <center>
           <div class="row">
               <div class="col s6">
                   <h3 class="black-text"><center>News</center></h3>
@@ -52,7 +57,8 @@ layout: default
                   <h3 class="black-text"><center>Events</center></h3>
                   <p class="black-text"><center>events here</center></p>
               </div>
-            </div>
+          </div>
+          </center>
       </div>
     </div>
   </div>
