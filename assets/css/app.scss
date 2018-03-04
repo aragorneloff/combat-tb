@@ -64,7 +64,7 @@ main {
 .container {
   margin: 0 auto;
   max-width: 1280px;
-  width: 80%;
+  /* width: 80%; */
 }
 
 .section-inner{
@@ -74,6 +74,10 @@ main {
 
 .highlights-section{
     background-color: $light-accent-color;
+}
+
+.supported-section{
+    background-color: $white;
 }
 
 nav {
@@ -281,12 +285,12 @@ footer {
  /* responsive */
  @media #{$medium-and-up} {
    .container {
-     width: 75%;
+     /* width: 75%; */
    }
  }
 
  @media #{$large-and-up} {
    .container {
-     width: 60%;
+     /* width: 60%; */
    }
  }
