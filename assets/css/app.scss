@@ -72,13 +72,13 @@ main {
   margin:0!important;
 }
 
+.content-section{
+    width:100%;
+}
+
 .section-inner{
     max-width:1200px;
     padding: 20px;
-}
-
-.content-section{
-    width:100%;
 }
 
 .highlights-section{
@@ -87,6 +87,10 @@ main {
 
 .supported-section{
     background-color: $white;
+}
+
+.news-section{
+    background-color: $light-accent-color;
 }
 
 nav {
