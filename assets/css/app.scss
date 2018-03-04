@@ -17,6 +17,7 @@ $divider-color: #BDBDBD;
 $dark-primary-color: #1e4192;
 $default-primary-color: #3e61b2;
 $light-primary-color: #b2b9c9;
+$footer-bg-color: #b2b9c9;
 
 $accent-color: #607d8b;
 $dark-accent-color: #263238;
@@ -37,7 +38,7 @@ h1,h2,h3,h4 {
   background-color: $default-primary-color;
 }
 
-.light-primary-color{
+.light-primary-color,.footer-bg-color{
   background-color: $light-primary-color;
 }
 
