@@ -8,22 +8,54 @@ layout: default
 
     <div class="group-article">
         <div class="row no-margin">
-            <div class="col s12 l8 white-article-bg z-depth-1">
-                <h2 class=" text-darken-2">About the project</h2>
-                <p class="grey-text text-darken-2 post-content on-index light">
-                Man braid vaporware tofu craft beer, semiotics gentrify pop-up plaid cardigan enamel pin distillery sartorial. Seitan umami pop-up cloud bread health goth. Twee authentic keytar paleo gluten-free street art messenger bag meditation. Retro adaptogen raw denim everyday carry fanny pack mixtape tacos. Man bun pok pok viral cold-pressed bespoke microdosing activated charcoal small batch authentic vape helvetica. Godard tumeric church-key, master cleanse prism typewriter messenger bag tofu four loko four dollar toast photo booth lo-fi. Etsy flannel mixtape fingerstache lo-fi vice photo booth brooklyn tbh ethical selfies keytar freegan distillery tilde. Air plant meditation vaporware selvage. Keffiyeh wayfarers raw denim cred letterpress iceland cornhole next level. Hoodie echo park fam post-ironic, swag offal la croix woke art party thundercats intelligentsia next level. Keffiyeh mixtape sustainable, fashion axe cliche yr polaroid aesthetic. Coloring book yuccie street art vegan. Tumeric woke poke, knausgaard raw denim copper mug mlkshk retro art party fixie fashion axe locavore vegan.
-                </p>
-                <p class="grey-text text-darken-2 post-content on-index light">
-                Vexillologist kinfolk XOXO cloud bread raw denim polaroid blog schlitz truffaut distillery tacos wolf. Squid activated charcoal etsy kale chips paleo before they sold out bicycle rights hell of jean shorts polaroid distillery typewriter banh mi. Beard try-hard pabst art party hexagon. Yr shabby chic you probably haven't heard of them, before they sold out polaroid echo park intelligentsia tumblr skateboard taxidermy fam ugh thundercats. 90's celiac etsy church-key, kickstarter kitsch letterpress fanny pack activated charcoal meh paleo listicle. Pug fam kickstarter listicle, palo santo shoreditch mustache raw denim. Four loko la croix mixtape hell of. Normcore biodiesel mlkshk scenester vice quinoa hoodie chartreuse. Cornhole pop-up meh pour-over, food truck echo park taiyaki crucifix af kombucha try-hard green juice. Butcher ugh messenger bag, lomo mixtape authentic slow-carb intelligentsia semiotics. Pop-up drinking vinegar VHS health goth hexagon, tumblr vice flannel everyday carry. Godard you probably haven't heard of them venmo whatever, etsy glossier hexagon fingerstache PBR&B gochujang everyday carry fashion axe cloud bread drinking vinegar. Single-origin coffee poke tumblr sartorial yr post-ironic cold-pressed fam ethical edison bulb food truck jianbing semiotics. Messenger bag chartreuse la croix, poke distillery normcore forage hexagon celiac.
-                </p>
-            </div>
             <!-- highlights  -->
-            <div class="col s12 l4 highlights blue-article-bg z-depth-2">
+            <div class="col s12 highlights blue-article-bg z-depth-2">
                 <div>
-                    <h3 class="white-text">Highlights</h3>
+                    <h3 class="white-text"><center>Highlights</center></h3>
                     {% for post in site.categories.news %}
                       <p class="text-darken-2"><a class="body-link" href="{{ post.url | prepend: site.baseurl }}">{{post.title}} - {{post.date}}</a></p>
                     {% endfor %}
+                </div>
+            </div>
+            <div class="divider"></div>
+        </div>
+
+        <div class="row no-margin">
+            <!-- supported by  -->
+            <div class="col s12 highlights blue-article-bg z-depth-2">
+                <h3 class="white-text"><center>Supported by</center></h3>
+            </div>
+            <div class="col s6 m3 highlights blue-article-bg z-depth-2">
+                logo here
+            </div>
+            <div class="col s6 m3 highlights blue-article-bg z-depth-2">
+                logo here
+            </div>
+            <div class="col s6 m3 highlights blue-article-bg z-depth-2">
+                logo here
+            </div>
+            <div class="col s6 m3 highlights blue-article-bg z-depth-2">
+                logo here
+            </div>
+            <div class="divider"></div>
+        </div>
+
+        <div class="row no-margin">
+            <!-- supported by  -->
+            <div class="col s12 m6 highlights blue-article-bg z-depth-2">
+                <div class="row">
+                    <h3 class="white-text"><center>News</center></h3>
+                </div>
+                <div class="row">
+                    <h3 class="white-text"><center>news here</center></h3>
+                </div>
+            </div>
+            <div class="col s12 m6 highlights blue-article-bg z-depth-2">
+                <div class="row">
+                    <h3 class="white-text"><center>Events</center></h3>
+                </div>
+                <div class="row">
+                    <h3 class="white-text"><center>events here</center></h3>
                 </div>
             </div>
             <div class="divider"></div>
