@@ -7,17 +7,13 @@ layout: default
 <div class="container main-content">
 
     <div class="highlights-section">
-        <div class="row">
-            <!-- highlights  -->
-            <div class="col s12 z-depth-2">
-                <div>
-                    <h3 class="black-text"><center>Highlights</center></h3>
-                    {% for post in site.categories.news %}
-                      <p class="black-text text-darken-2"><a class="body-link" href="{{ post.url | prepend: site.baseurl }}">{{post.title}} - {{post.date}}</a></p>
-                    {% endfor %}
-                </div>
+        <div class="z-depth-2">
+            <div class="section-inner">
+                <h3 class="black-text"><center>Highlights</center></h3>
+                {% for post in site.categories.news %}
+                  <p class="black-text text-darken-2"><a class="body-link" href="{{ post.url | prepend: site.baseurl }}">{{post.title}} - {{post.date}}</a></p>
+                {% endfor %}
             </div>
-            <div class="divider"></div>
         </div>
     </div>
 
