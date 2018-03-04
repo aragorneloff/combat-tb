@@ -7,23 +7,23 @@ layout: default
 <div class="container main-content">
 
     <div class="group-article">
-        <div class="row no-margin">
+        <div class="row">
             <!-- highlights  -->
-            <div class="col s12 highlights blue-article-bg z-depth-2">
+            <div class="col s12 highlights white-article-bg z-depth-2">
                 <div>
-                    <h3 class="white-text"><center>Highlights</center></h3>
+                    <h3 class="black-text"><center>Highlights</center></h3>
                     {% for post in site.categories.news %}
-                      <p class="text-darken-2"><a class="body-link" href="{{ post.url | prepend: site.baseurl }}">{{post.title}} - {{post.date}}</a></p>
+                      <p class="black-text text-darken-2"><a class="body-link" href="{{ post.url | prepend: site.baseurl }}">{{post.title}} - {{post.date}}</a></p>
                     {% endfor %}
                 </div>
             </div>
             <div class="divider"></div>
         </div>
 
-        <div class="row no-margin">
+        <div class="row">
             <!-- supported by  -->
-            <div class="col s12 highlights blue-article-bg z-depth-2">
-                <h3 class="white-text"><center>Supported by</center></h3>
+            <div class="col s12 highlights white-article-bg z-depth-2">
+                <h3 class="black-text"><center>Supported by</center></h3>
             </div>
             <div class="col s6 m3 highlights blue-article-bg z-depth-2">
                 logo here
@@ -40,22 +40,22 @@ layout: default
             <div class="divider"></div>
         </div>
 
-        <div class="row no-margin">
+        <div class="row">
             <!-- supported by  -->
-            <div class="col s12 m6 highlights blue-article-bg z-depth-2">
+            <div class="col s12 m6 highlights white-article-bg z-depth-2">
                 <div class="row">
-                    <h3 class="white-text"><center>News</center></h3>
+                    <h3 class="black-text"><center>News</center></h3>
                 </div>
                 <div class="row">
-                    <h3 class="white-text"><center>news here</center></h3>
+                    <h3 class="black-text"><center>news here</center></h3>
                 </div>
             </div>
-            <div class="col s12 m6 highlights blue-article-bg z-depth-2">
+            <div class="col s12 m6 highlights white-article-bg z-depth-2">
                 <div class="row">
-                    <h3 class="white-text"><center>Events</center></h3>
+                    <h3 class="black-text"><center>Events</center></h3>
                 </div>
                 <div class="row">
-                    <h3 class="white-text"><center>events here</center></h3>
+                    <h3 class="black-text"><center>events here</center></h3>
                 </div>
             </div>
             <div class="divider"></div>
