@@ -25,6 +25,7 @@ $light-accent-color: #eceff1;
 
 /* typography */
 h1,h2,h3,h4 {
+  text-transform: uppercase!important;
   text-align: left;
   color: $dark-primary-color;
   font-weight: 400;
@@ -64,6 +65,10 @@ main {
   margin: 0 auto;
   max-width: 1280px;
   width: 80%;
+}
+
+.highlights-section{
+    background-color: $light-accent-color;
 }
 
 nav {
@@ -235,7 +240,7 @@ article {
 }
 
 .highlights{
-  margin-top: 150px;
+  /* margin-top: 150px; */
 }
 
 .content-section {
