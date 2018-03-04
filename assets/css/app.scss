@@ -84,9 +84,17 @@ nav {
 }
 
 .carousel h2{
-  font-size: 32px;
+  font-size: 2rem;
   font-weight: 300;
   margin-top: 100px;
+}
+
+h2{
+  font-size:2.5rem;
+}
+
+h3{
+  font-size:2rem;
 }
 
 .carousel.carousel-slider .carousel-item p {
@@ -109,7 +117,7 @@ nav {
   background-color: #FFF;
 }
 
-.lime-article-bg {
+.blue-article-bg {
   padding: 40px!important;
   background-color: $dark-primary-color;
 }
