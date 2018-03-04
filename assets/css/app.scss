@@ -29,9 +29,17 @@ h1,h2,h3,h4 {
   font-weight: 400;
 }
 
-.dark-primary-color = $dark-primary-color;
-.default-primary-color = $default-primary-color;
-.light-primary-color = $light-primary-color;
+.dark-primary-color{
+  color: $dark-primary-color;
+}
+
+.default-primary-color{
+  color: $default-primary-color;
+}
+
+.light-primary-color{
+  color: $light-primary-color;
+}
 
 
 
@@ -97,11 +105,15 @@ nav {
 }
 
 h2{
-  font-size:2.5rem;
+  font-size:2.6rem!important;
 }
 
 h3{
-  font-size:2rem;
+  font-size:2rem!important;
+}
+
+h4,h5{
+  font-size:1.6rem!important;
 }
 
 .bolder{
