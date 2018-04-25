@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.5.2">Jekyll</generator><link href="http://www.combattb.org/combat-tb/feed.xml" rel="self" type="application/atom+xml" /><link href="http://www.combattb.org/combat-tb/" rel="alternate" type="text/html" /><updated>2018-04-25T03:55:40-05:00</updated><id>http://www.combattb.org/combat-tb/</id><title type="html">combatTB</title><subtitle></subtitle><entry><title type="html">Testing GitHub Flavored Markdown</title><link href="http://www.combattb.org/combat-tb/testing-gitHub-flavored-markdown/" rel="alternate" type="text/html" title="Testing GitHub Flavored Markdown" /><published>2015-10-10T14:37:30-05:00</published><updated>2015-10-10T14:37:30-05:00</updated><id>http://www.combattb.org/combat-tb/testing-gitHub-flavored-markdown</id><content type="html" xml:base="http://www.combattb.org/combat-tb/testing-gitHub-flavored-markdown/">&lt;p&gt;Jekyll is simple but powerfull, and can hosted easely on github.
+This is cheat codes for creating beautiful article with GFM (Github Flavored Markdown).
+For more information about GFM, &lt;a href=&quot;https://help.github.com/articles/github-flavored-markdown/&quot;&gt;click here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h5 id=&quot;-links&quot;&gt;# Links&lt;/h5&gt;
+
+&lt;p&gt;Example :&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/riefachan&quot;&gt;click here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Return :&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;[click here](https://github.com/riefachan)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;h5 id=&quot;-italic&quot;&gt;# italic&lt;/h5&gt;
+
+&lt;p&gt;Example :&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;this is italic !&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Return :&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;*this is italic !*
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;h5 id=&quot;-bold&quot;&gt;# bold&lt;/h5&gt;
+
+&lt;p&gt;Example :&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;this is bold !&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Return :&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;**this is bold !**
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;h5 id=&quot;-list&quot;&gt;# List&lt;/h5&gt;
+
+&lt;p&gt;Example :&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Item 1&lt;/li&gt;
+  &lt;li&gt;Item 2&lt;/li&gt;
+  &lt;li&gt;Item 3&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Return :&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;* Item 1
+* Item 2
+* Item 3
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;h5 id=&quot;-code&quot;&gt;# code&lt;/h5&gt;
+
+&lt;p&gt;Example :&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;function hello(){
+	return &quot;Hello World!&quot;;
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Return :&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot; data-lang=&quot;text&quot;&gt;```
+function hello(){
+	return &quot;Hello World!&quot;;
+}
+```&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;h5 id=&quot;-code-inline&quot;&gt;# code (inline)&lt;/h5&gt;
+
+&lt;p&gt;Example :&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;echo &quot;Hello World!&quot;;&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Return :&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;`echo &quot;Hello World!&quot;;`
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;h5 id=&quot;-code-with-highlight&quot;&gt;# code (with highlight)&lt;/h5&gt;
+
+&lt;p&gt;Example :&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-javascript&quot; data-lang=&quot;javascript&quot;&gt;&lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;hello&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(){&lt;/span&gt;
+	&lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Hello World!&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Return :&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot; data-lang=&quot;text&quot;&gt;{% highlight javascript %}
+function hello(){
+	return &quot;Hello World!&quot;;
+}
+{% endhighlight %}&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;</content><author><name></name></author><summary type="html">Jekyll is simple but powerfull, and can hosted easely on github. This is cheat codes for creating beautiful article with GFM (Github Flavored Markdown). For more information about GFM, click here.</summary></entry><entry><title type="html">Dude 3</title><link href="http://www.combattb.org/combat-tb/team3/" rel="alternate" type="text/html" title="Dude 3" /><published>2015-10-09T19:49:37-05:00</published><updated>2015-10-09T19:49:37-05:00</updated><id>http://www.combattb.org/combat-tb/team3</id><content type="html" xml:base="http://www.combattb.org/combat-tb/team3/">&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quae cum dixisset paulumque institisset, Quid est? Immo videri fortasse. Quid iudicant sensus? Duo Reges: constructio interrete. A quibus propter discendi cupiditatem videmus ultimas terras esse peragratas. Non est ista, inquam, Piso, magna dissensio.&lt;/p&gt;
+
+&lt;p&gt;Facile est hoc cernere in primis puerorum aetatulis. Longum est enim ad omnia respondere, quae a te dicta sunt. Aliud igitur esse censet gaudere, aliud non dolere. Nam si amitti vita beata potest, beata esse non potest. Facillimum id quidem est, inquam.&lt;/p&gt;
+
+&lt;p&gt;Nummus in Croesi divitiis obscuratur, pars est tamen divitiarum. Quid igitur, inquit, eos responsuros putas? Sed ne, dum huic obsequor, vobis molestus sim. An hoc usque quaque, aliter in vita? Negat enim summo bono afferre incrementum diem. Quid autem habent admirationis, cum prope accesseris? Quare attende, quaeso.&lt;/p&gt;
+
+&lt;p&gt;Nam, ut sint illa vendibiliora, haec uberiora certe sunt. Minime vero istorum quidem, inquit. Ex ea difficultate illae fallaciloquae, ut ait Accius, malitiae natae sunt. Quamquam id quidem, infinitum est in hac urbe;&lt;/p&gt;
+
+&lt;p&gt;Multoque hoc melius nos veriusque quam Stoici. Illi enim inter se dissentiunt. Tubulum fuisse, qua illum, cuius is condemnatus est rogatione, P. Id et fieri posse et saepe esse factum et ad voluptates percipiendas maxime pertinere. Ut proverbia non nulla veriora sint quam vestra dogmata. Atqui eorum nihil est eius generis, ut sit in fine atque extrerno bonorum.&lt;/p&gt;</content><author><name></name></author><summary type="html">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quae cum dixisset paulumque institisset, Quid est? Immo videri fortasse. Quid iudicant sensus? Duo Reges: constructio interrete. A quibus propter discendi cupiditatem videmus ultimas terras esse peragratas. Non est ista, inquam, Piso, magna dissensio.</summary></entry><entry><title type="html">Dude 2</title><link href="http://www.combattb.org/combat-tb/team2/" rel="alternate" type="text/html" title="Dude 2" /><published>2015-10-09T19:49:37-05:00</published><updated>2015-10-09T19:49:37-05:00</updated><id>http://www.combattb.org/combat-tb/team2</id><content type="html" xml:base="http://www.combattb.org/combat-tb/team2/">&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quae cum dixisset paulumque institisset, Quid est? Immo videri fortasse. Quid iudicant sensus? Duo Reges: constructio interrete. A quibus propter discendi cupiditatem videmus ultimas terras esse peragratas. Non est ista, inquam, Piso, magna dissensio.&lt;/p&gt;
+
+&lt;p&gt;Facile est hoc cernere in primis puerorum aetatulis. Longum est enim ad omnia respondere, quae a te dicta sunt. Aliud igitur esse censet gaudere, aliud non dolere. Nam si amitti vita beata potest, beata esse non potest. Facillimum id quidem est, inquam.&lt;/p&gt;
+
+&lt;p&gt;Nummus in Croesi divitiis obscuratur, pars est tamen divitiarum. Quid igitur, inquit, eos responsuros putas? Sed ne, dum huic obsequor, vobis molestus sim. An hoc usque quaque, aliter in vita? Negat enim summo bono afferre incrementum diem. Quid autem habent admirationis, cum prope accesseris? Quare attende, quaeso.&lt;/p&gt;
+
+&lt;p&gt;Nam, ut sint illa vendibiliora, haec uberiora certe sunt. Minime vero istorum quidem, inquit. Ex ea difficultate illae fallaciloquae, ut ait Accius, malitiae natae sunt. Quamquam id quidem, infinitum est in hac urbe;&lt;/p&gt;
+
+&lt;p&gt;Multoque hoc melius nos veriusque quam Stoici. Illi enim inter se dissentiunt. Tubulum fuisse, qua illum, cuius is condemnatus est rogatione, P. Id et fieri posse et saepe esse factum et ad voluptates percipiendas maxime pertinere. Ut proverbia non nulla veriora sint quam vestra dogmata. Atqui eorum nihil est eius generis, ut sit in fine atque extrerno bonorum.&lt;/p&gt;</content><author><name></name></author><summary type="html">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quae cum dixisset paulumque institisset, Quid est? Immo videri fortasse. Quid iudicant sensus? Duo Reges: constructio interrete. A quibus propter discendi cupiditatem videmus ultimas terras esse peragratas. Non est ista, inquam, Piso, magna dissensio.</summary></entry><entry><title type="html">Dude</title><link href="http://www.combattb.org/combat-tb/team1/" rel="alternate" type="text/html" title="Dude" /><published>2015-10-09T19:49:37-05:00</published><updated>2015-10-09T19:49:37-05:00</updated><id>http://www.combattb.org/combat-tb/team1</id><content type="html" xml:base="http://www.combattb.org/combat-tb/team1/">&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quae cum dixisset paulumque institisset, Quid est? Immo videri fortasse. Quid iudicant sensus? Duo Reges: constructio interrete. A quibus propter discendi cupiditatem videmus ultimas terras esse peragratas. Non est ista, inquam, Piso, magna dissensio.&lt;/p&gt;
+
+&lt;p&gt;Facile est hoc cernere in primis puerorum aetatulis. Longum est enim ad omnia respondere, quae a te dicta sunt. Aliud igitur esse censet gaudere, aliud non dolere. Nam si amitti vita beata potest, beata esse non potest. Facillimum id quidem est, inquam.&lt;/p&gt;</content><author><name></name></author><summary type="html">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quae cum dixisset paulumque institisset, Quid est? Immo videri fortasse. Quid iudicant sensus? Duo Reges: constructio interrete. A quibus propter discendi cupiditatem videmus ultimas terras esse peragratas. Non est ista, inquam, Piso, magna dissensio.</summary></entry><entry><title type="html">Publication 2</title><link href="http://www.combattb.org/combat-tb/publication2/" rel="alternate" type="text/html" title="Publication 2" /><published>2015-10-09T19:49:37-05:00</published><updated>2015-10-09T19:49:37-05:00</updated><id>http://www.combattb.org/combat-tb/publication2</id><content type="html" xml:base="http://www.combattb.org/combat-tb/publication2/">&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quae cum dixisset paulumque institisset, Quid est? Immo videri fortasse. Quid iudicant sensus? Duo Reges: constructio interrete. A quibus propter discendi cupiditatem videmus ultimas terras esse peragratas. Non est ista, inquam, Piso, magna dissensio.&lt;/p&gt;
+
+&lt;p&gt;Facile est hoc cernere in primis puerorum aetatulis. Longum est enim ad omnia respondere, quae a te dicta sunt. Aliud igitur esse censet gaudere, aliud non dolere. Nam si amitti vita beata potest, beata esse non potest. Facillimum id quidem est, inquam.&lt;/p&gt;
+
+&lt;p&gt;Nummus in Croesi divitiis obscuratur, pars est tamen divitiarum. Quid igitur, inquit, eos responsuros putas? Sed ne, dum huic obsequor, vobis molestus sim. An hoc usque quaque, aliter in vita? Negat enim summo bono afferre incrementum diem. Quid autem habent admirationis, cum prope accesseris? Quare attende, quaeso.&lt;/p&gt;
+
+&lt;p&gt;Nam, ut sint illa vendibiliora, haec uberiora certe sunt. Minime vero istorum quidem, inquit. Ex ea difficultate illae fallaciloquae, ut ait Accius, malitiae natae sunt. Quamquam id quidem, infinitum est in hac urbe;&lt;/p&gt;
+
+&lt;p&gt;Multoque hoc melius nos veriusque quam Stoici. Illi enim inter se dissentiunt. Tubulum fuisse, qua illum, cuius is condemnatus est rogatione, P. Id et fieri posse et saepe esse factum et ad voluptates percipiendas maxime pertinere. Ut proverbia non nulla veriora sint quam vestra dogmata. Atqui eorum nihil est eius generis, ut sit in fine atque extrerno bonorum.&lt;/p&gt;</content><author><name></name></author><summary type="html">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quae cum dixisset paulumque institisset, Quid est? Immo videri fortasse. Quid iudicant sensus? Duo Reges: constructio interrete. A quibus propter discendi cupiditatem videmus ultimas terras esse peragratas. Non est ista, inquam, Piso, magna dissensio.</summary></entry><entry><title type="html">Publication 1</title><link href="http://www.combattb.org/combat-tb/publication1/" rel="alternate" type="text/html" title="Publication 1" /><published>2015-10-09T19:49:37-05:00</published><updated>2015-10-09T19:49:37-05:00</updated><id>http://www.combattb.org/combat-tb/publication1</id><content type="html" xml:base="http://www.combattb.org/combat-tb/publication1/">&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quae cum dixisset paulumque institisset, Quid est? Immo videri fortasse. Quid iudicant sensus? Duo Reges: constructio interrete. A quibus propter discendi cupiditatem videmus ultimas terras esse peragratas. Non est ista, inquam, Piso, magna dissensio.&lt;/p&gt;
+
+&lt;p&gt;Facile est hoc cernere in primis puerorum aetatulis. Longum est enim ad omnia respondere, quae a te dicta sunt. Aliud igitur esse censet gaudere, aliud non dolere. Nam si amitti vita beata potest, beata esse non potest. Facillimum id quidem est, inquam.&lt;/p&gt;
+
+&lt;p&gt;Nummus in Croesi divitiis obscuratur, pars est tamen divitiarum. Quid igitur, inquit, eos responsuros putas? Sed ne, dum huic obsequor, vobis molestus sim. An hoc usque quaque, aliter in vita? Negat enim summo bono afferre incrementum diem. Quid autem habent admirationis, cum prope accesseris? Quare attende, quaeso.&lt;/p&gt;
+
+&lt;p&gt;Nam, ut sint illa vendibiliora, haec uberiora certe sunt. Minime vero istorum quidem, inquit. Ex ea difficultate illae fallaciloquae, ut ait Accius, malitiae natae sunt. Quamquam id quidem, infinitum est in hac urbe;&lt;/p&gt;
+
+&lt;p&gt;Multoque hoc melius nos veriusque quam Stoici. Illi enim inter se dissentiunt. Tubulum fuisse, qua illum, cuius is condemnatus est rogatione, P. Id et fieri posse et saepe esse factum et ad voluptates percipiendas maxime pertinere. Ut proverbia non nulla veriora sint quam vestra dogmata. Atqui eorum nihil est eius generis, ut sit in fine atque extrerno bonorum.&lt;/p&gt;</content><author><name></name></author><summary type="html">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quae cum dixisset paulumque institisset, Quid est? Immo videri fortasse. Quid iudicant sensus? Duo Reges: constructio interrete. A quibus propter discendi cupiditatem videmus ultimas terras esse peragratas. Non est ista, inquam, Piso, magna dissensio.</summary></entry><entry><title type="html">And another news item</title><link href="http://www.combattb.org/combat-tb/news3/" rel="alternate" type="text/html" title="And another news item" /><published>2015-10-09T19:49:37-05:00</published><updated>2015-10-09T19:49:37-05:00</updated><id>http://www.combattb.org/combat-tb/news3</id><content type="html" xml:base="http://www.combattb.org/combat-tb/news3/">&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quae cum dixisset paulumque institisset, Quid est? Immo videri fortasse. Quid iudicant sensus? Duo Reges: constructio interrete. A quibus propter discendi cupiditatem videmus ultimas terras esse peragratas. Non est ista, inquam, Piso, magna dissensio.&lt;/p&gt;
+
+&lt;p&gt;Facile est hoc cernere in primis puerorum aetatulis. Longum est enim ad omnia respondere, quae a te dicta sunt. Aliud igitur esse censet gaudere, aliud non dolere. Nam si amitti vita beata potest, beata esse non potest. Facillimum id quidem est, inquam.&lt;/p&gt;
+
+&lt;p&gt;Nummus in Croesi divitiis obscuratur, pars est tamen divitiarum. Quid igitur, inquit, eos responsuros putas? Sed ne, dum huic obsequor, vobis molestus sim. An hoc usque quaque, aliter in vita? Negat enim summo bono afferre incrementum diem. Quid autem habent admirationis, cum prope accesseris? Quare attende, quaeso.&lt;/p&gt;
+
+&lt;p&gt;Nam, ut sint illa vendibiliora, haec uberiora certe sunt. Minime vero istorum quidem, inquit. Ex ea difficultate illae fallaciloquae, ut ait Accius, malitiae natae sunt. Quamquam id quidem, infinitum est in hac urbe;&lt;/p&gt;
+
+&lt;p&gt;Multoque hoc melius nos veriusque quam Stoici. Illi enim inter se dissentiunt. Tubulum fuisse, qua illum, cuius is condemnatus est rogatione, P. Id et fieri posse et saepe esse factum et ad voluptates percipiendas maxime pertinere. Ut proverbia non nulla veriora sint quam vestra dogmata. Atqui eorum nihil est eius generis, ut sit in fine atque extrerno bonorum.&lt;/p&gt;</content><author><name></name></author><summary type="html">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quae cum dixisset paulumque institisset, Quid est? Immo videri fortasse. Quid iudicant sensus? Duo Reges: constructio interrete. A quibus propter discendi cupiditatem videmus ultimas terras esse peragratas. Non est ista, inquam, Piso, magna dissensio.</summary></entry><entry><title type="html">This is another news item</title><link href="http://www.combattb.org/combat-tb/news2/" rel="alternate" type="text/html" title="This is another news item" /><published>2015-10-09T19:49:37-05:00</published><updated>2015-10-09T19:49:37-05:00</updated><id>http://www.combattb.org/combat-tb/news2</id><content type="html" xml:base="http://www.combattb.org/combat-tb/news2/">&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quae cum dixisset paulumque institisset, Quid est? Immo videri fortasse. Quid iudicant sensus? Duo Reges: constructio interrete. A quibus propter discendi cupiditatem videmus ultimas terras esse peragratas. Non est ista, inquam, Piso, magna dissensio.&lt;/p&gt;
+
+&lt;p&gt;Facile est hoc cernere in primis puerorum aetatulis. Longum est enim ad omnia respondere, quae a te dicta sunt. Aliud igitur esse censet gaudere, aliud non dolere. Nam si amitti vita beata potest, beata esse non potest. Facillimum id quidem est, inquam.&lt;/p&gt;
+
+&lt;p&gt;Nummus in Croesi divitiis obscuratur, pars est tamen divitiarum. Quid igitur, inquit, eos responsuros putas? Sed ne, dum huic obsequor, vobis molestus sim. An hoc usque quaque, aliter in vita? Negat enim summo bono afferre incrementum diem. Quid autem habent admirationis, cum prope accesseris? Quare attende, quaeso.&lt;/p&gt;
+
+&lt;p&gt;Nam, ut sint illa vendibiliora, haec uberiora certe sunt. Minime vero istorum quidem, inquit. Ex ea difficultate illae fallaciloquae, ut ait Accius, malitiae natae sunt. Quamquam id quidem, infinitum est in hac urbe;&lt;/p&gt;
+
+&lt;p&gt;Multoque hoc melius nos veriusque quam Stoici. Illi enim inter se dissentiunt. Tubulum fuisse, qua illum, cuius is condemnatus est rogatione, P. Id et fieri posse et saepe esse factum et ad voluptates percipiendas maxime pertinere. Ut proverbia non nulla veriora sint quam vestra dogmata. Atqui eorum nihil est eius generis, ut sit in fine atque extrerno bonorum.&lt;/p&gt;</content><author><name></name></author><summary type="html">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quae cum dixisset paulumque institisset, Quid est? Immo videri fortasse. Quid iudicant sensus? Duo Reges: constructio interrete. A quibus propter discendi cupiditatem videmus ultimas terras esse peragratas. Non est ista, inquam, Piso, magna dissensio.</summary></entry><entry><title type="html">This is a news item</title><link href="http://www.combattb.org/combat-tb/news1/" rel="alternate" type="text/html" title="This is a news item" /><published>2015-10-09T19:49:37-05:00</published><updated>2015-10-09T19:49:37-05:00</updated><id>http://www.combattb.org/combat-tb/news1</id><content type="html" xml:base="http://www.combattb.org/combat-tb/news1/">&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quae cum dixisset paulumque institisset, Quid est? Immo videri fortasse. Quid iudicant sensus? Duo Reges: constructio interrete. A quibus propter discendi cupiditatem videmus ultimas terras esse peragratas. Non est ista, inquam, Piso, magna dissensio.&lt;/p&gt;
+
+&lt;p&gt;Facile est hoc cernere in primis puerorum aetatulis. Longum est enim ad omnia respondere, quae a te dicta sunt. Aliud igitur esse censet gaudere, aliud non dolere. Nam si amitti vita beata potest, beata esse non potest. Facillimum id quidem est, inquam.&lt;/p&gt;
+
+&lt;p&gt;Nummus in Croesi divitiis obscuratur, pars est tamen divitiarum. Quid igitur, inquit, eos responsuros putas? Sed ne, dum huic obsequor, vobis molestus sim. An hoc usque quaque, aliter in vita? Negat enim summo bono afferre incrementum diem. Quid autem habent admirationis, cum prope accesseris? Quare attende, quaeso.&lt;/p&gt;
+
+&lt;p&gt;Nam, ut sint illa vendibiliora, haec uberiora certe sunt. Minime vero istorum quidem, inquit. Ex ea difficultate illae fallaciloquae, ut ait Accius, malitiae natae sunt. Quamquam id quidem, infinitum est in hac urbe;&lt;/p&gt;
+
+&lt;p&gt;Multoque hoc melius nos veriusque quam Stoici. Illi enim inter se dissentiunt. Tubulum fuisse, qua illum, cuius is condemnatus est rogatione, P. Id et fieri posse et saepe esse factum et ad voluptates percipiendas maxime pertinere. Ut proverbia non nulla veriora sint quam vestra dogmata. Atqui eorum nihil est eius generis, ut sit in fine atque extrerno bonorum.&lt;/p&gt;</content><author><name></name></author><summary type="html">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quae cum dixisset paulumque institisset, Quid est? Immo videri fortasse. Quid iudicant sensus? Duo Reges: constructio interrete. A quibus propter discendi cupiditatem videmus ultimas terras esse peragratas. Non est ista, inquam, Piso, magna dissensio.</summary></entry><entry><title type="html">Event 2</title><link href="http://www.combattb.org/combat-tb/event2/" rel="alternate" type="text/html" title="Event 2" /><published>2015-10-09T19:49:37-05:00</published><updated>2015-10-09T19:49:37-05:00</updated><id>http://www.combattb.org/combat-tb/event2</id><content type="html" xml:base="http://www.combattb.org/combat-tb/event2/">&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quae cum dixisset paulumque institisset, Quid est? Immo videri fortasse. Quid iudicant sensus? Duo Reges: constructio interrete. A quibus propter discendi cupiditatem videmus ultimas terras esse peragratas. Non est ista, inquam, Piso, magna dissensio.&lt;/p&gt;
+
+&lt;p&gt;Facile est hoc cernere in primis puerorum aetatulis. Longum est enim ad omnia respondere, quae a te dicta sunt. Aliud igitur esse censet gaudere, aliud non dolere. Nam si amitti vita beata potest, beata esse non potest. Facillimum id quidem est, inquam.&lt;/p&gt;
+
+&lt;p&gt;Nummus in Croesi divitiis obscuratur, pars est tamen divitiarum. Quid igitur, inquit, eos responsuros putas? Sed ne, dum huic obsequor, vobis molestus sim. An hoc usque quaque, aliter in vita? Negat enim summo bono afferre incrementum diem. Quid autem habent admirationis, cum prope accesseris? Quare attende, quaeso.&lt;/p&gt;
+
+&lt;p&gt;Nam, ut sint illa vendibiliora, haec uberiora certe sunt. Minime vero istorum quidem, inquit. Ex ea difficultate illae fallaciloquae, ut ait Accius, malitiae natae sunt. Quamquam id quidem, infinitum est in hac urbe;&lt;/p&gt;
+
+&lt;p&gt;Multoque hoc melius nos veriusque quam Stoici. Illi enim inter se dissentiunt. Tubulum fuisse, qua illum, cuius is condemnatus est rogatione, P. Id et fieri posse et saepe esse factum et ad voluptates percipiendas maxime pertinere. Ut proverbia non nulla veriora sint quam vestra dogmata. Atqui eorum nihil est eius generis, ut sit in fine atque extrerno bonorum.&lt;/p&gt;</content><author><name></name></author><summary type="html">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quae cum dixisset paulumque institisset, Quid est? Immo videri fortasse. Quid iudicant sensus? Duo Reges: constructio interrete. A quibus propter discendi cupiditatem videmus ultimas terras esse peragratas. Non est ista, inquam, Piso, magna dissensio.</summary></entry></feed>
