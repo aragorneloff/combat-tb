@@ -1,8 +1,0 @@
----
-layout: post
-title: "This is a COMBAT TB news item"
-date: 2015-10-10 00:49:37
-categories: news
----
-
-This is news about TB
