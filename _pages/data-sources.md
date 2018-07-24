@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Other Data Sources
-permalink: /data\-sources/
+permalink: /othersources/
 ---
 
 These resources are included with no warranty of suitability. Some of these resources are only available under restrictive licences, some of
