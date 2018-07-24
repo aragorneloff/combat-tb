@@ -2,7 +2,7 @@
 title: combatTB
 description: > # Description of project
 url: "http://www.combattb.org"
-baseurl: "/combat-tb"
+baseurl: "."
 logo: ""
 paginate: 3
 paginate_path: "/page:num/"
@@ -29,6 +29,7 @@ sass:
 permalink: /:title/
 markdown: kramdown
 highlighter: rouge
-gems:
+plugins:
     - jekyll-feed
+    - jekyll-paginate
 include: ['_pages']

@@ -3,11 +3,11 @@
 	<!-- dropdown menus  -->
 		<!-- About  -->
 		<ul id="dropdown-about" class="dropdown-content">
-			<li><a href="/combat-tb/about">About COMBAT-TB</a></li>
-		  <li><a href="/combat-tb/team">Team</a></li>
-		  <li><a href="/combat-tb/publications">Publications</a></li>
-			<li><a href="/combat-tb/events">Events</a></li>
-		  <li><a href="/combat-tb/data-sources">Other data sources</a></li>
+			<li><a href="{{ "/about" | prepend: site.baseurl }}">About COMBAT-TB</a></li>
+		  <li><a href="{{ "/team" | prepend: site.baseurl }}">Team</a></li>
+		  <li><a href="{{ "/publications" | prepend: site.baseurl }}">Publications</a></li>
+			<li><a href="{{ "/events" | prepend: site.baseurl }}">Events</a></li>
+		  <li><a href="{{ "/data-sources" | prepend: site.baseurl }}">Other data sources</a></li>
 		</ul>
 	<!-- Use  -->
 	<ul id="dropdown-use" class="dropdown-content">
@@ -17,9 +17,9 @@
 
 	<!-- Education  -->
 	<ul id="dropdown-edu" class="dropdown-content">
-		<li><a href="/combat-tb/explorer-guide">Guide to using Explorer</a></li>
-	  <!-- <li><a href="/combat-tb/galaxy-guide">Galaxy tutorials/tours for ctbgx workflow</a></li> -->
-		<!-- <li><a href="/combat-tb/videos">Video tutorials</a></li> -->
+		<li><a href="{{ "/explorer-guide" | prepend: site.baseurl }}">Guide to using Explorer</a></li>
+	  <!-- <li><a href="{{ "/galaxy-guide" | prepend: site.baseurl }}">Galaxy tutorials/tours for ctbgx workflow</a></li> -->
+		<!-- <li><a href="{{ "/videos" | prepend: site.baseurl }}">Video tutorials</a></li> -->
 	</ul>
 
 	<!-- main menu  -->
@@ -32,18 +32,18 @@
 	      <li><a class="dropdown-button" href="#!" data-activates="dropdown-about">About<i class="material-icons right">arrow_drop_down</i></a></li>
 				<li><a class="dropdown-button" href="#!" data-activates="dropdown-use"><span style="font-weight: 600; font-size: 1.1em;">Tools</span><i class="material-icons right">arrow_drop_down</i></a></li>
 				<li><a class="dropdown-button" href="#!" data-activates="dropdown-edu">Education<i class="material-icons right">arrow_drop_down</i></a></li>
-				<li><a href="/combat-tb/contribute">Deploy &amp; Develop</a></li>
+				<li><a href="{{ "/contribute" | prepend: site.baseurl }}">Deploy &amp; Develop</a></li>
 	    </ul>
 
 			<!-- mobile menu  -->
 			<ul class="side-nav" id="mobile-demo">
 				<li><a  href="#">About</a>
 					<ul id="dropdown-about" class="dropdown-content">
-						<li><a href="/combat-tb/about">About COMBAT-TB</a></li>
-					  <li><a href="/combat-tb/community/team">Team</a></li>
-					  <li><a href="/combat-tb/community/publications">Publications</a></li>
-						<li><a href="/combat-tb/community/events">Events</a></li>
-					  <li><a href="/combat-tb/community/data-sources">Other data sources</a></li>
+						<li><a href="{{ "/about" | prepend: site.baseurl }}">About COMBAT-TB</a></li>
+					  <li><a href="{{ "/community/team" | prepend: site.baseurl }}">Team</a></li>
+					  <li><a href="{{ "/community/publications" | prepend: site.baseurl }}">Publications</a></li>
+						<li><a href="{{ "/community/events" | prepend: site.baseurl }}">Events</a></li>
+					  <li><a href="{{ "/community/data-sources" | prepend: site.baseurl }}">Other data sources</a></li>
 					</ul>
 				</li>
 				<li><a  href="#"><span style="font-weight: 600;">Tools</span></a>
@@ -54,12 +54,12 @@
 				</li>
 				<li><a  href="#">Education</a>
 					<ul id="dropdown-edu" class="dropdown-content">
-						<li><a href="/combat-tb/community/team">Guide to using Explorer</a></li>
-					  <li><a href="/combat-tb/community/publications">Galaxy tutorials/tours for ctbgx workflow</a></li>
-						<li><a href="/combat-tb/community/events">Video tutorials</a></li>
+						<li><a href="{{ "/community/team" | prepend: site.baseurl }}">Guide to using Explorer</a></li>
+					  <li><a href="{{ "/community/publications" | prepend: site.baseurl }}">Galaxy tutorials/tours for ctbgx workflow</a></li>
+						<li><a href="{{ "/community/events" | prepend: site.baseurl }}">Video tutorials</a></li>
 					</ul>
 				</li>
-				<li><a href="/combat-tb/contribute">Deploy &amp; Develop</a></li>
+				<li><a href="{{ "/contribute" | prepend: site.baseurl }}">Deploy &amp; Develop</a></li>
       </ul>
 	  </div>
 	</nav>
