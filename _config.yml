@@ -1,7 +1,8 @@
 # Site settings
 title: combatTB
 description: > # Description of project
-url: "http://www.combattb.org"
+# url: "http://www.combattb.org"
+url: "https://pvanheus.github.io/combat-tb/"
 baseurl: "/combat-tb"
 logo: ""
 paginate: 3
