@@ -8,6 +8,25 @@ layout: default
 
 
   <div class="content-inner">
+    <div class="content-section">
+      <center>
+        <div class="section-inner">
+          <div class="row">
+            <div class="col s6">
+              <h4 class="blue-text"><i class="material-icons">search</i><a href="http://explorer.combattb.org">COMBAT TB Explorer</a></h4>
+                <p>The COMBAT TB Explorer is a comprehensive resource for <em>M. tuberculosis</em> genome, proteome and biochemical pathway knowledge.</p>
+            </div>
+            <div class="col s6">
+              <h4 class="green-text"><i class="material-icons">build</i>COMBATB TB Workbench</h4>
+              <p>The COMBAT TB Workbench is a forthcoming bioinformatics analysis workbench with tools for variant discovery and annotation, phylogeny construction
+                and clade-based variant prioritisation.</p>
+            </div>
+          </div>
+        </div>
+      </center>
+    </div>
+  </div>
+  <!-- <div class="content-inner">
     <div class="highlights-section">
         <div class="content-section">
           <center>
@@ -19,6 +38,33 @@ layout: default
             </div>
           </center>
         </div>
+    </div> -->
+
+    <div class="news-section">
+      <div class="content-section">
+        <center>
+        <div class="section-inner">
+          <div class="row">
+              <div class="col s6">
+                  <h3 class="black-text"><center>News</center></h3>
+                    {% for post in site.categories.news %}
+                      <p class="dark-text"><a class="body-link" href="{{ post.url | prepend: site.baseurl }}">{{post.title}} - {{post.date}}</a></p>
+                    {% endfor %}
+              </div>
+              <div class="col s6">
+                  <h3 class="black-text"><center>Events</center></h3>
+                  {% if site.categories.events.size > 0 %}
+                    {% for post in site.categories.events %}
+                      <p class="dark-text"><a class="body-link" href="{{ post.url | prepend: site.baseurl }}">{{post.title}} - {{post.date}}</a></p>
+                    {% endfor %}
+                  {% else %}
+                      <p class="dark-text">Please check back later for updates</p>
+                  {% endif %}
+              </div>
+          </div>
+        </div>
+      </center>
+      </div>
     </div>
 
     <div class="supported-section">
@@ -28,16 +74,16 @@ layout: default
             <h3 class="black-text"><center>Supported by</center></h3>
             <div class="row">
                 <div class="col s6 m3">
-                    <img src="http://via.placeholder.com/200x100">
+                    <img src="assets/img/SANBI_logo.svg">
                 </div>
                 <div class="col s6 m3">
-                    <img src="http://via.placeholder.com/200x100">
+                    <img src="assets/img/SAMRC_Logo.svg">
                 </div>
                 <div class="col s6 m3">
-                    <img src="http://via.placeholder.com/200x100">
+                    <img src="assets/img/UWC_Logo.svg">
                 </div>
                 <div class="col s6 m3">
-                    <img src="http://via.placeholder.com/200x100">
+                    <img src="assets/img/NRF_Logo.svg">
                 </div>
             </div>
           </div>
@@ -45,23 +91,5 @@ layout: default
         </div>
     </div>
 
-    <div class="news-section">
-      <div class="content-section">
-        <center>
-        <div class="section-inner">
-          <div class="row">
-              <div class="col s6">
-                  <h3 class="black-text"><center>News</center></h3>
-                  <p class="black-text"><center>news here</center></p>
-              </div>
-              <div class="col s6">
-                  <h3 class="black-text"><center>Events</center></h3>
-                  <p class="black-text"><center>events here</center></p>
-              </div>
-          </div>
-        </div>
-      </center>
-      </div>
-    </div>
   </div>
 </div>

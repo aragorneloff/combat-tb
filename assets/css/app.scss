@@ -119,9 +119,9 @@ nav {
 
 }
 
-.body-link {
-  color: $light-accent-color;
-}
+// .body-link {
+//   color: $light-accent-color;
+// }
 
 .dropdown-content li>a, .dropdown-content li>span {
     color: $primary-text-color!important;
@@ -315,6 +315,9 @@ footer {
     max-width: 1200px;
 }
 
+.supported-section img {
+  max-height: 5em;
+}
 
  /* responsive */
  @media #{$medium-and-up} {
